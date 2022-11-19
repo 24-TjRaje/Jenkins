@@ -10,7 +10,7 @@ public class Landing {
 	
 	@GetMapping("/welcome")
 	public String helloMessage() {
-		return "Welcome to the Jenkins Server from TJ Raje";
+		return "Welcome to the Jenkins Server from TJ Raje. Jai Hind";
 	}
 
 }
